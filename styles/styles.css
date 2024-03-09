@@ -18,7 +18,7 @@ img {
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: 0;
 }
 main {
     max-width: 840px;
@@ -30,4 +30,17 @@ aside {
     padding: 20px;
     background-color: gray;
     color: white;
+}
+aside img {
+    width: 200px;
+    height: auto;
+}
+main img {
+    width: 150px;
+    height: auto;
+}
+footer {
+    margin-top: 10px;
+    border-top: 5px solid black;
+    text-align: center;
 }
