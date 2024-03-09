@@ -28,7 +28,7 @@ aside {
     margin: 10px;
     border: 1px solid white;
     padding: 20px;
-    background-color: gray;
+    background-color: steelblue;
     color: white;
 }
 aside img {
@@ -41,6 +41,6 @@ main img {
 }
 footer {
     margin-top: 10px;
-    border-top: 5px solid black;
+    border-top: 2px solid black;
     text-align: center;
 }
