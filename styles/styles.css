@@ -13,7 +13,7 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: #374c5e;
+    color: #4682b4;
 }
 img {
     width: 150px;
@@ -30,7 +30,7 @@ main {
 }
 aside {
     width: 200px;
-    padding: 20px;
+    padding: 40px;
 }
 aside img {
     width: 200px;
@@ -43,7 +43,8 @@ main img {
 }
 footer {
     margin-top: 10px;
-    border-top: 2px solid #000000;
+    border: 1px solid #4682b4;
+    border-top: 2px solid ;
     text-align: center;
 }
 
