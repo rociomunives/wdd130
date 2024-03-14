@@ -30,6 +30,7 @@ main {
 }
 aside {
     width: 200px;
+    padding: 20px;
 }
 aside img {
     width: 200px;
