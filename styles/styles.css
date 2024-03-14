@@ -38,6 +38,7 @@ aside img {
 main img {
     width: 150px;
     height: auto;
+    float: right;
 }
 footer {
     margin-top: 10px;
