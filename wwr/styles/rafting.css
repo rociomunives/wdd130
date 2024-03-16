@@ -16,6 +16,19 @@
     --nav-hover-background-color: #78c5d7;
 }
 
+div {
+    position:relative;
+}
+
+h1,article {
+    position:absolute;
+}
+
+
+article img {
+    float:right; 
+}
+
 .hero img {
     display:block;
     width: 100%;
