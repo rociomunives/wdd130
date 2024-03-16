@@ -19,8 +19,8 @@
 *{
     font-family: var(--paragraph-font);
     width: 960px;
-    margin: 20px; 
-    align-content: center;
+    margin: 0 auto; 
+    padding: 20px; 
 }
 
 header img {
@@ -32,7 +32,7 @@ header img {
 }
 
 header nav {
-    float: right;
+    float: left;
 }
 
 h1,h2{
