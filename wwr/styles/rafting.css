@@ -58,9 +58,10 @@ h1,h2{
     background-color: rgba(0, 0, 0, 0.4);
 }
 
-.hero article {
+article {
     background-color: rgba(19, 72, 101, 0.5);
     padding: 20px;
+    text-align:left;
 }
 
 article img{
