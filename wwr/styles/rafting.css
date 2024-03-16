@@ -75,7 +75,7 @@ article img{
     margin-left: 10px;
 }
 
-footer nav {
-    display: inline-block;
+footer {
+    display: flex;
     width: 100px; 
 }
