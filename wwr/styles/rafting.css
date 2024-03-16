@@ -65,9 +65,15 @@ article {
 }
 
 article img{
-    width: 100px;
+    width: 30%;
     float: right;
     margin-left: 10px;
+}
+
+article p {
+    width: 70%;
+    float: left;
+    margin-left: 10px
 }
 
 footer {
