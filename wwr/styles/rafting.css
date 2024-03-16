@@ -28,21 +28,29 @@ h1,h2{
     color: var(--primary-color);
 }
 
-div {
+.hero {
     position:relative;
-}
-
-h1,article {
-    position:absolute;
-}
-
-
-article img {
-    float:right; 
+    width: 100%;
+    height: 400px;
 }
 
 .hero img {
     display:block;
     width: 100%;
     height:auto; 
+}
+
+.hero h1, .hero article {
+    position: absolute;
+    color:#134865
+}
+
+.hero h1{
+    top: 50px;
+    left: 50px;
+}
+
+.hero article{
+    bottom: 50px;
+    right: 50px; 
 }
