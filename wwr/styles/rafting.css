@@ -53,4 +53,11 @@ h1,h2{
 .hero article{
     bottom: 50px;
     right: 50px; 
+    background-color: #134865;
+    padding: 20px;
+}
+
+article img{
+    float: right;
+    margin-left: 10px;
 }
