@@ -16,6 +16,18 @@
     --nav-hover-background-color: #78c5d7;
 }
 
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+    align-content: center;
+}
+
+h1,h2{
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
 div {
     position:relative;
 }
