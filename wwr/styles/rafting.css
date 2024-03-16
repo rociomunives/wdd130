@@ -61,7 +61,6 @@ h1,h2{
 hero article {
     background-color: rgba(19, 72, 101, 0.5);
     padding: 20px;
-    text-align:left;
     bottom: 100px;
     left: 300px; 
 }
