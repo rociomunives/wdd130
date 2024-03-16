@@ -16,9 +16,10 @@
     --nav-hover-background-color: #78c5d7;
 }
 
-*{
+body {
     font-family: var(--paragraph-font);
     width: 960px;
+    padding: 20px;
 }
 
 header img {
