@@ -59,8 +59,6 @@ h1,h2{
 }
 
 .hero article {
-    bottom: 50px;
-    right: 50px; 
     background-color: rgba(19, 72, 101, 0.5);
     padding: 20px;
 }
