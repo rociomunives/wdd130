@@ -55,18 +55,19 @@ h1,h2{
 .hero h1, .hero article {
     position: absolute;
     color: white;
-    width: 50px; 
+    width: 30% 
 }
 
 .hero h1{
     top: 50px;
     left: 50px;
+    text-align: center;
 }
 
 .hero article{
     bottom: 50px;
     right: 50px; 
-    background-color: #134865;
+    background-color: rgba(19, 72, 101, 0.5);
     padding: 20px;
 }
 
