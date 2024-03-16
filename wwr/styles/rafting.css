@@ -58,10 +58,9 @@ h1,h2{
     width: 30% 
 }
 
-.hero h1{
-    top: 50px;
-    left: 50px;
+.hero h1 {
     text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .hero article{
