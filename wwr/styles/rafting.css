@@ -24,7 +24,7 @@ body {
 
 header img {
     top: 20px;
-    margin-left: 20px
+    margin-left: 20px;
 }
 
 header nav {
@@ -75,7 +75,7 @@ article img{
 article p {
     width: 70%;
     float: left;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 footer {
