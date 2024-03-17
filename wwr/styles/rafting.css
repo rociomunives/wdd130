@@ -50,6 +50,10 @@ h1, article {
     position: absolute;
 }
 
+article img {
+    float: right;
+    margin-left: 15px; 
+}
 footer {
     display: flex;
     align-items: center;
