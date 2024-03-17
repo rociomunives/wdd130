@@ -36,26 +36,16 @@ h1,h2{
     color: var(--primary-color);
 }
 
-.hero img {
-    display:block;
-    width: 100%;
-    height:auto; 
-}
-
-.hero h1, .hero article {
-    position: absolute;
+.hero {
+    position: relative;
 }
 
 .hero h1 {
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 50px; 
+    left: 50px; 
+    color: white;
 }
-
-hero article {
-    background-color: rgba(19, 72, 101, 0.5);
-    padding: 20px;
-}
-
 footer {
     display: flex;
     align-items: center;
