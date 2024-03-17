@@ -37,7 +37,7 @@ h1,h2{
 }
 
 .hero {
-    position:relative;
+    position: relative;
 }
 
 .hero img {
@@ -48,6 +48,11 @@ h1,h2{
 
 h1, article {
     position: absolute;
+}
+
+article {
+    background-color:  rgba(120, 197, 215, 0.5); 
+    color: #ffffff
 }
 
 article img {
