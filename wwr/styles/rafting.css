@@ -42,9 +42,11 @@ h1,h2{
 
 .hero h1 {
     position: absolute;
-    top: 50px; 
-    left: 50px; 
+    top: 100px; 
+    left: 100px; 
     color: white;
+    text-align: center;
+    background-color: rgba(120, 197, 215, 0.5);
 }
 
 .hero article {
