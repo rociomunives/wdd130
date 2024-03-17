@@ -46,6 +46,10 @@ h1,h2{
     height: auto;
 }
 
+h1, article {
+    position: absolute;
+}
+
 footer {
     display: flex;
     align-items: center;
