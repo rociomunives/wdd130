@@ -40,6 +40,12 @@ h1,h2{
     position:relative;
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 footer {
     display: flex;
     align-items: center;
