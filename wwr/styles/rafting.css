@@ -35,30 +35,47 @@ h1,h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
-
-.herodiv {
-    position: relative;
+.hero {
+    position:relative;
+    width: 100%;
 }
 
 .hero img {
-    display: block;
+    display:block;
     width: 100%;
-    height: auto;
+    height:auto; 
 }
 
-h1, article {
+.hero h1, .hero article {
     position: absolute;
+    color: white;
+    width: 30%; 
 }
 
-article {
-    background-color:  rgba(120, 197, 215, 0.5); 
-    color: #ffffff
+.hero h1 {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
-article img {
+hero article {
+    background-color: rgba(19, 72, 101, 0.5);
+    padding: 20px;
+    bottom: 100px;
+    left: 300px; 
+}
+
+article img{
+    width: 30%;
     float: right;
-    margin-left: 15px; 
+    margin-left: 10px;
 }
+
+article p {
+    width: 70%;
+    float: left;
+    margin-left: 10px;
+}
+
 footer {
     display: flex;
     align-items: center;
