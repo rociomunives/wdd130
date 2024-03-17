@@ -58,18 +58,6 @@ hero article {
     padding: 20px;
 }
 
-article img{
-    width: 30%;
-    float: right;
-    margin-left: 10px;
-}
-
-article p {
-    width: 70%;
-    float: left;
-    margin-left: 10px;
-}
-
 footer {
     display: flex;
     align-items: center;
