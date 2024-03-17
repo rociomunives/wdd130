@@ -46,6 +46,21 @@ h1,h2{
     left: 50px; 
     color: white;
 }
+
+.hero article {
+    position: absolute;
+    top: 100px; 
+    left: 50px; 
+    color: white;
+
+}
+
+.hero img {
+    display: block; 
+    width: 100%; 
+    height: auto; 
+}
+
 footer {
     display: flex;
     align-items: center;
