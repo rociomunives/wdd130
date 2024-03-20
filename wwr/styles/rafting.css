@@ -44,10 +44,10 @@ h1,h2{
     position: absolute;
     top: 30px; 
     left: 100px; 
-    width: auto;
+    width: 100%;
     color: white;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.5);
+    justify-content:center;
+    background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .hero article {
@@ -55,9 +55,9 @@ h1,h2{
     top: 100px; 
     left: 50px; 
     color: white;
-    width: 300px;
-    height: 100px;
-
+    width: 80%;
+    background-color: rgb(19, 72, 101, 0.6);
+    padding: 1rem;
 }
 
 .hero img {
@@ -66,8 +66,10 @@ h1,h2{
     height: auto; 
 }
 
-article img{
+.hero article img {
     float: right;
+    width: 200px;
+    padding: 1rem; 
 }
 
 footer {
