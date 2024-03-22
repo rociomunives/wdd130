@@ -6,16 +6,25 @@
 nav {
     background-color: #4682b4;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 nav a {
     color: #ffffff;
     display: block;
     padding: 20px;
+    text-decoration: none;
+    font-size:1.2rem;
+    font-weight: 700;
 }
+
 h1 {
     color: #4682b4;
     padding-left: 20px;
     padding-top: 20px;
+    border-bottom: 1px solid #4682b4
 }
 img {
     width: 150px;
@@ -27,9 +36,7 @@ img {
 p {
     padding: 20px;
 }
-main {
-    max-width: 840px;
-}
+
 aside {
     width: 250px; 
     padding: 40px;
@@ -63,5 +70,26 @@ footer {
 }
 aside h2{
     position:absolute;
+}
 
+header,.grid,footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display:grid;
+    align-items: center;
+}
+
+main{
+    grid-column: 2/3;
+    margin: 1rem;
+}
+
+aside {
+    width: 20rem;
+    position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
