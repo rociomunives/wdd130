@@ -109,19 +109,24 @@ h1,h2{
 }
 
 .history img {
-    width: 300px;
+    width: 310px;
 }
 
 .adventure {
     display: flex;
-    padding-bottom: 20px;
+    padding-bottom: 20px;   
 }
 
 .adventure img {
-    width: 176px;
-    padding: 20px;
-    padding-left: 0px;
+    width: 185px;
+    padding-right: 5px;
 }
+
+.adventure figure {
+    margin: 3px;
+    margin-left: 0px;
+}
+ 
 footer {
     display: flex;
     align-items: center;
