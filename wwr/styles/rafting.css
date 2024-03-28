@@ -63,6 +63,7 @@ header img {
 h1,h2{
     font-family: var(--heading-font);
     color: var(--primary-color);
+    text-align: center;
 }
 
 .hero {
@@ -74,7 +75,6 @@ h1,h2{
     top: 30px;  
     width: 100%;
     color: var(--accent1-color);
-    text-align: center;
     text-shadow: 2px 2px 5px black;
     letter-spacing: 2px;
     font-weight: bold;
