@@ -60,7 +60,7 @@ header img {
     box-shadow: 10px 10px 5px black;
 }
 
-h1,h2{
+h1,h2,h3{
     font-family: var(--heading-font);
     color: var(--primary-color);
     text-align: center;
@@ -75,6 +75,7 @@ h1,h2{
     top: 30px;  
     width: 100%;
     color: var(--accent1-color);
+    text-align: center;
     text-shadow: 2px 2px 5px black;
     letter-spacing: 2px;
     font-weight: bold;
@@ -138,4 +139,134 @@ footer {
 
 nav a {
     text-decoration: none;
+}
+
+/* Contact Us Page */
+
+/* Reach Our Team Section */
+
+.contact1 {
+    display: flex;
+    justify-content: center;
+}
+
+.column1 , .column2 {
+    text-align: center;
+    max-width: 30%;
+    margin: 40px;
+    padding: 40px;
+    border: 2px solid #134865
+}
+
+.icon1, .icon2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+
+.icon1 img, .icon2 img {
+    max-width: 50px;
+}
+
+/*Company Address Section*/
+
+.contact2 {
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.column3, .column4 {
+    margin: 50px;
+    padding: 50px;
+}
+
+.icon3 img {
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.icon3 {
+    display: flex;
+}
+
+.formparagraph {
+    text-align: center;
+}
+
+#h3 {
+    text-align: left;
+}
+
+iframe {
+    width: 400px;
+    height: 400px;
+}
+ 
+/*Our Team Section*/
+
+.contact3 {
+    justify-content: center;
+    display: flex; 
+    padding-bottom: 30px;
+}
+
+.contact3 img {
+    width: 200px;
+    height: 200px;
+}
+
+/* Send Us a Message Section */
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: rgb(252, 225, 115, 0.4);
+    display:grid;
+    grid-gap: .5rem;
+    margin-bottom: 2rem;
+}
+
+label, input, button, select, textarea {
+    font-family: "Roboto", sans-serif;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+    padding-top: 1rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+fieldset {
+    border: none;
+    padding-left: 0;
+}
+
+button {
+    margin: 1rem;
+    background-color: #134865;
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button:hover {
+    background-color: #78c5d7;
+}
+
+#link {
+    color: black;
 }
