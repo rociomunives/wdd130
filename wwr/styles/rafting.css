@@ -149,6 +149,10 @@ nav a {
 
 /* Reach Our Team Section */
 
+#hero-contact {
+    text-align: center;
+}
+
 .contact1 {
     display: flex;
     justify-content: center;
