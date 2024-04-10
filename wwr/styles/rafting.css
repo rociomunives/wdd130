@@ -141,6 +141,7 @@ footer {
     background-color: var(--secondary-color);
     color: #000;
     padding: 30px;
+    margin-top: 50px;
 }
 
 nav a {
