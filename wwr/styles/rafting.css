@@ -121,6 +121,7 @@ h1,h2,h3{
 
 .adventure {
     display: flex;
+    padding-top: 20px;
     padding-bottom: 20px;   
 }
 
