@@ -287,7 +287,6 @@ button:hover {
 
 /* Trips Page */
 
-/* Dry Oar Trips Section */
 
 #hero-trips {
     text-align: center;
@@ -296,6 +295,8 @@ button:hover {
 .contact-us {
     text-align: center;
 }
+
+/* Dry Oar Trips */
 
 .trips {
   display: grid;
@@ -330,6 +331,8 @@ strong {
     padding: 10px;
     background-color: rgb(252, 225, 115, 0.4);
 }
+
+/* Table */
 
 table {
     border-collapse: collapse;
@@ -370,4 +373,40 @@ tbody > tr > th:first-of-type {
 
 #table {
     padding-bottom: 50px;
+}
+
+/* Home Page */
+
+/* Welcome */
+
+.homepage h1 {
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+/* Newsletter */
+
+/* Call to Action */
+
+/* Grid */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .item {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+.homepage h1 {
+    font-size: 35px;
+    padding-top: 50px;
 }
