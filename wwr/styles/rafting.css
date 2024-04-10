@@ -23,6 +23,10 @@ body {
 
 }
 
+p {
+    line-height: 25px;
+}
+
 header {
 	margin: 1rem auto;
 	display: grid;
@@ -155,7 +159,8 @@ nav a {
     max-width: 30%;
     margin: 40px;
     padding: 40px;
-    border: 2px solid #134865
+    border: 2px solid #134865;
+    background-color:  rgb(252, 225, 115, 0.4);
 }
 
 .icon1, .icon2 {
@@ -178,6 +183,8 @@ nav a {
     padding-bottom: 30px;
 }
 
+
+
 .icon3 img {
     width: 50px;
     height: 50px;
@@ -199,7 +206,6 @@ nav a {
 iframe {
     width: 400px;
     height: 400px;
-    border: none; 
 }
  
 /*Our Team Section*/
@@ -265,4 +271,92 @@ button:hover {
 
 #link {
     color: black;
+}
+
+/* Trips Page */
+
+/* Dry Oar Trips Section */
+
+#hero-trips {
+    text-align: center;
+}
+
+.contact-us {
+    text-align: center;
+    padding: 50px;
+}
+
+.trips {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-template-rows: repeat(2, 3fr);
+  gap: 20px;
+  padding-bottom: 50px;
+  padding-top: 50px
+}
+
+.wild-adventure img, .natural-exploration img, .thrilling-rapids img{
+    width: 440px;
+    height: auto;
+}
+
+.family-expedition img {
+    width: 440px;
+    height: 330px;
+}
+
+h4 {
+    color:#134865;
+    font-size: 18px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.wild-adventure, .natural-exploration, .thrilling-rapids, .family-expedition {
+    border: 2px solid #134865;
+    padding: 10px;
+    background-color: rgb(252, 225, 115, 0.4);
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid #134865;
+    margin-top: 50px;
+}
+  
+caption {
+    caption-side: bottom;
+    padding: 10px;
+    font-weight: bold;
+  }
+
+th, td {
+    border: 1px solid rgb(160 160 160);
+    padding-left: none;
+    padding: 30px 10px
+
+}
+
+th {
+  vertical-align: bottom;
+}
+
+thead > tr {
+    background-color: rgb(120, 197, 215, 0.4);
+    text-align: left;
+}
+
+thead {
+    padding: 20px;
+}
+
+tbody > tr > th:first-of-type {
+    text-align: left;
+}
+
+#table {
+    padding-bottom: 50px;
 }
