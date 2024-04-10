@@ -384,9 +384,13 @@ tbody > tr > th:first-of-type {
     padding-top: 50px;
 }
 
-/* Newsletter */
-
 /* Call to Action */
+
+.calltoaction {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
 
 /* Grid */
 
@@ -406,7 +410,4 @@ tbody > tr > th:first-of-type {
     height: auto;
   }
 
-.homepage h1 {
-    font-size: 35px;
-    padding-top: 50px;
-}
+
