@@ -112,6 +112,7 @@ h1,h2,h3{
 .history {
     column-count: 3;
     column-gap: 20px;
+    padding-bottom: 50px;
 }
 
 .history img {
