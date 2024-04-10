@@ -223,13 +223,17 @@ iframe {
 
 /* Send Us a Message Section */
 
+.form {
+    background-color: rgb(252, 225, 115, 0.4); 
+    padding-top: 20px;
+}
+
 form {
     width: 650px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0,0,0,0.1);
     border-radius: 0.5rem;
-    background-color: rgb(252, 225, 115, 0.4);
     display:grid;
     grid-gap: .5rem;
     margin-bottom: 2rem;
